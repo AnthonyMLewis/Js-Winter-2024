@@ -11,7 +11,7 @@ else
    {
     console.log(num + ' is odd')
    }
-// Write a program based on age and displays a message based on their age using an if-else if statement:
+// Write a program based on age and display a message based on their age using an if-else if statement:
 // let age = 24;
 // If the age is less than 18, display "You are a minor".
 // If the age is between 18 and 65 (inclusive), display "You are an adult".
@@ -32,7 +32,7 @@ else
     console.log(`You are an senior`);
     }
 
-// Write a program based on a letter and displays whether the letter is a vowel or a consonant using an if-else statement.
+// Write a program based on a letter and display whether the letter is a vowel or a consonant using an if-else statement.
 // let letter = 'e';
 
 let letter  = 'e';
@@ -45,7 +45,7 @@ letter  = letter.toLowerCase();
         {
         console.log(`Letter is a consonant`)
     }
-// Write a program based on given password and displays a message based on the password using an if-else statement:
+// Write a program based on a given password and display a message based on the password using an if-else statement:
 // let password = 'Test1233';
 // If the password is less than 8 characters, display "Password too short".
 // If the password contains both letters and numbers, display "Password accepted".
@@ -54,7 +54,7 @@ letter  = letter.toLowerCase();
 let password = 'Test1233';
 
 if(password.length.valueOf(8)>= 8){
-    console.log(`Your password is too short`)
+    console.log(`Your password is too short`);
 } else if(userInput === undefined || userInput === null){
     console.log('Please input valid user input'); 
 }
